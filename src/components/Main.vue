@@ -20,8 +20,8 @@
       class="d-flex justify-content-center"
     >
       <span class="py-5 px-3">Bite | Attack: 3 | Intimidation: 5</span>
-      <span class="py-5 px-3">Roar | Attack: 1 | Intimidation: 8</span>
-      <span class="py-5 px-3">Stomp | Attack: 2 | Intimidation: 12</span>
+      <span class="py-5 px-3">Roar | Attack: 2 | Intimidation: 8</span>
+      <span class="py-5 px-3">Stomp | Attack: 1 | Intimidation: 12</span>
     </div>
     <button class="btn mx-auto my-5 bg-success" @click="reset">Reset</button>
   </div>
