@@ -35,7 +35,7 @@ export default {
     handleAttack: async function(obj) {
       const attack = await this.getAttack(obj.attackId)
       const attacking = await this.getAttacking(this.turn.attacking)
-      const newHealth = (attacking.health - (attack.damage + Math.floor(attacking.confidence * .1)) - Math.floor((50 - attacking.confidence) * .1))
+      const newHealth = attack.type !== 'Roar' ? (attacking.health - (attack.damage + Math.floor(attacking.confidence * .1)) - Math.floor((50 - attacking.confidence) * .1)) : attacking.health
       const newConfidence = (attacking.confidence - attack.intimidation)
       let updateTurn = {}
       if (newHealth <= 0) {
