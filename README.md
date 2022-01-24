@@ -1,24 +1,11 @@
 # vue-dinosaur-fight
 
-## Project setup
-```
-npm install
-```
+This is a simple exercise to practice and learn Vue. You fight two dinosaurs against each other. It's probably more fun to play with another person.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+NOTE: Confidence counts for both how much damage you're giving as well as how much damage you're taking!
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+To use:
+1) Clone the repo
+2) npm install
+3) npm run start
+4) open http://localhost:8080
