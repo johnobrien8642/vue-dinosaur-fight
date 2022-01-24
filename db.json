@@ -1,0 +1,44 @@
+{
+  "dinosaurs": [
+    {
+      "id": 1,
+      "name": "T-Rex",
+      "type": "trex",
+      "health": 50,
+      "confidence": 50
+    },
+    {
+      "id": 2,
+      "name": "Raptor",
+      "type": "raptor",
+      "health": 50,
+      "confidence": 50
+    }
+  ],
+  "attacks": [
+    {
+      "id": 1,
+      "type": "Bite",
+      "damage": 3,
+      "intimidation": 5
+    },
+    {
+      "id": 2,
+      "type": "Roar",
+      "damage": 1,
+      "intimidation": 8
+    },
+    {
+      "id": 3,
+      "type": "Stomp",
+      "damage": 2,
+      "intimidation": 12
+    }
+  ],
+  "turn": {
+    "attacker": 1,
+    "attacking": 2,
+    "moves_left": 2,
+    "game_over": false
+  }
+}

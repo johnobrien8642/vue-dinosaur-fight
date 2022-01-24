@@ -1,0 +1,27 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  visibility: hidden;
+}
+
+.desktop-only-warning {
+  visibility: visible;
+}
+
+@media screen and (min-width: 787px) {
+  .content {
+    visibility: visible;
+  }
+  .desktop-only-warning {
+    visibility: hidden;
+  }
+}
+
+img {
+  width: 100%;
+}

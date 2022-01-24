@@ -1,0 +1,65 @@
+.content {
+  gap: 30%;
+
+  .dinosaur {
+    box-sizing: content-box;
+
+    .health-container {
+    
+      .bar {
+        height: 10px;
+
+        .meter {
+          height: 100%;
+        }
+      }
+
+      .health {
+        .meter {
+          width: var(--health);
+          background-color: green;
+        }
+      }
+
+      .confidence {
+        .meter {
+          width: var(--confidence);
+          background-color: blue;
+        }
+      }
+    }
+
+    .attacks {
+      height: fit-content;
+
+      .btn {
+        color: white;
+
+        &:focus {
+          box-shadow: 0 0 0 transparent;
+        }
+      }
+      .bite {
+        background-color: red;
+
+        &:hover {
+         background-color: darken(red, 10%); 
+        }
+      }
+      .roar {
+        background-color: orange;
+
+        &:hover {
+          background-color: darken(orange, 10%); 
+        }
+      }
+      .stomp {
+        background-color: purple;
+
+        &:hover {
+          background-color: darken(purple, 10%); 
+        }
+      }
+    }
+  }
+}
