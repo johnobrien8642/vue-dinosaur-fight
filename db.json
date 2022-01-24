@@ -25,13 +25,13 @@
     {
       "id": 2,
       "type": "Roar",
-      "damage": 1,
+      "damage": 2,
       "intimidation": 8
     },
     {
       "id": 3,
       "type": "Stomp",
-      "damage": 2,
+      "damage": 1,
       "intimidation": 12
     }
   ],
